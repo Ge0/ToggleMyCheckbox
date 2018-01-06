@@ -109,5 +109,5 @@ LRESULT CALLBACK MainWindowProc(HWND hwnd,
         PostQuitMessage(0);
         break;
     }
-    return DefWindowProc(hwnd, message, wParam, lParam);;
+    return DefWindowProc(hwnd, message, wParam, lParam);
 }
