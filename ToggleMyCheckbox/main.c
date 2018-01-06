@@ -90,7 +90,7 @@ LRESULT CALLBACK MainWindowProc(HWND hwnd,
             (HMENU)ID_CHECKBOX_TOGGLEME,
             ((LPCREATESTRUCT)lParam)->hInstance,
             NULL);
-            CheckDlgButton(hwnd, 1, BST_CHECKED);
+            CheckDlgButton(hwnd, ID_CHECKBOX_TOGGLEME, BST_CHECKED);
        
         break;
 
